@@ -1,0 +1,88 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'arial', sans-serif;
+}
+section
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .main
+{
+    width: 580px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section .main .searchBx
+{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+section .main .searchBx .query
+{
+    
+    width: 100%;
+    padding: 13px;
+    border: 1px solid rgb(173, 157, 157);
+    outline: none;
+    font-size: 16px;
+    border-radius: 30px;
+    padding-left: 58px;
+    padding-right: 60px;
+}
+section .main .searchBx .icons
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+    align-items: center;
+    pointer-events: none;
+    bottom: 0;
+
+   
+}
+section .main .searchBx .icons img 
+{
+    max-width: 100%;
+}
+.searchBtn
+{
+    margin: 0 5px;
+    margin-top: 20px;
+    padding:12px 20px ;
+    color: #555;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    outline: none;
+}
+.ban{
+    margin: 30px;
+    font-size: 13px;
+    text-align: center;
+    color: #666666;
+    
+}
+
+.ban a{
+    color: #1A0Db3;
+    text-decoration: underline;
+}
